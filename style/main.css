@@ -1,0 +1,95 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    max-width: 100vw;
+}
+
+#brand-img {
+    max-width: 90px;
+    max-height: 25;
+}
+
+.nav-brand {
+    text-decoration: none!important;
+}
+
+#get-started {
+    background-color: rgb(10, 38, 38);
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#get-started,
+#intro,
+#auth-content,
+#catalog-content {
+    min-height: 70vh;
+    max-width: 100vw!important;
+}
+
+.main-button {
+    color: white;
+    background-color: #ff9933;
+    display: block;
+}
+
+.main-button a {
+    color: white;
+}
+
+.main-button a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.card-images {
+    object-fit: cover;
+    object-position: 0 70%;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.card-header {
+    background-color: white!important;
+}
+
+.btn-experience {
+    display: none;
+    border: none;
+    /* border: 1px solid red; */
+    background-color: white!important;
+    align-items: center;
+    text-align: left;
+    text-decoration: none;
+}
+
+.term-link {
+    color: #ff9933!important;
+    font-weight: bold;
+}
+
+.card-link {
+    color: #ff9933!important;
+}
+
+.card-link:hover {
+    font-weight: bold;
+    transition: 1s;
+}
+
+#send-question-section {
+    background-color: rgb(228, 225, 225);
+}
+
+#footer {
+    background-color: #3a3a3a;
+    height: 20vh;
+}
+
+#footer a {
+    text-decoration: none!important;
+    color: white;
+}
